@@ -1,5 +1,5 @@
-const serverUrl = "INSERT_SERVER_URL"; //Server url from moralis.io
-const appId = "INSERT_APP_ID"; // Application id from moralis.io
+const serverUrl = "https://bfkd9d1hmmon.usemoralis.com:2053/server"; //Server url from moralis.io
+const appId = "S0fAOQt9HO3wzyqyRPID4qtnr4UGSQkddJfymcLM"; // Application id from moralis.io
 Moralis.start({ serverUrl, appId });
 
 async function login() {
